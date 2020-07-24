@@ -1,0 +1,642 @@
+body {
+	font-family: 'Typewriter';
+	padding-top: 40px;
+	overflow-x: hidden;
+}
+
+@font-face {
+	font-family: 'Typewriter';
+	src: url(../fonts/KingthingsTrypewriter2.ttf);
+}
+
+h2 {
+	font-size: 40px;
+}
+
+li {
+	line-height: normal
+}
+
+ul#social li {
+	display: inline;
+	padding: 10px 30px;
+}
+
+#logo-img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.news-text {
+	padding-top: 14px;
+}
+
+.navbar-brand {
+	color: white !important;
+	font-size: 22px;
+}
+
+.navbar {
+	font-size: 20px;
+	background-color: rgb(29, 31, 46);
+	padding: 0 !important;
+}
+
+.navbar .container {
+	width: 100%;
+	padding-left: 30px;
+}
+
+.navbar-collapse {
+	padding: 0 !important;
+	margin: 0 !important;
+}
+
+.nav.navbar-nav {
+	padding: 0 !important;
+	margin: 0 !important;
+}
+
+.navbar-nav li a {
+	font-size: 19px;
+	transition: 0.4s ease;
+	color: rgb(194, 194, 194) !important;
+	padding-left: 4px;
+	padding-right: 25px;
+}
+
+.navbar-nav li a:hover {
+	color: white !important;
+}
+
+.dropdown-menu {
+	min-width: 230px;
+	font-size: 20px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+.dropdown-menu li a {
+	padding-top: 6px;
+	padding-bottom: 6px;
+	color: rgb(78, 78, 78) !important;
+}
+
+.dropdown-menu li a:hover {
+	background-color: rgb(36, 40, 70) !important;
+	border-left: 6px solid rgba(255, 0, 0, 0.74);
+}
+
+.vr {
+	max-height: 400px;
+}
+
+@media (min-width:767px) {
+	.dropdown-menu li a {
+		padding-left: 20px !important;
+	}
+}
+
+@media (max-width: 992px) {
+	.navbar-brand {
+		font-size: 20px;
+	}
+	.navbar li a {
+		font-size: 16px;
+	}
+}
+
+@media (max-width: 767px) {
+	.dropdown-menu li a {
+		color: rgb(194, 194, 194) !important;
+	}
+}
+
+/* ==== Section ==== */
+
+#home {
+	background-color: rgb(177, 133, 133);
+	height: 610px;
+	overflow: hidden;
+}
+
+#home .container {
+	align-content: center;
+	vertical-align: middle;
+	align-items: center;
+	overflow: hidden;
+}
+
+#home #home-background {
+	width: 110%;
+	height: auto;
+	overflow: hidden;
+}
+
+#home h2 {
+	font-size: 45px;
+	color: rgb(218, 218, 218);
+}
+
+#youtube {
+	position: relative;
+	background-image: url(../img/rg/img1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	text-align: center;
+	overflow: hidden;
+}
+
+#youtube .main-cont {
+	background-color: rgba(0, 0, 0, 0.5);
+	padding-top: 130px;
+	padding-bottom: 170px;
+	overflow: hidden;
+}
+
+#youtube h2 {
+	font-size: 50px;
+	color: rgb(218, 218, 218);
+}
+
+#youtube h4 {
+	color: rgb(185, 185, 185);
+}
+
+#youtube .row .col-md-4 {
+	padding-left: 10px;
+	padding-right: 10px;
+	overflow: hidden;
+}
+
+#youtube .row .col-md-4 .wrapper {
+	position: relative;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border: 2px solid rgb(32, 26, 7);
+	overflow: hidden;
+}
+
+#youtube .wrapper .video-cont {
+	background-color: rgba(0, 0, 0, 0.70);
+	z-index: 9999999;
+	overflow: hidden;
+	transition: 0.4s ease;
+}
+
+#youtube .wrapper .video-cont:hover {
+	background-color: rgba(0, 0, 0, 0.55);
+}
+
+#youtube .wrapper .video-cont:hover .play-button {
+	background-color: #c4302b !important;
+}
+
+#youtube .wrapper .video-cont:hover .play-button span {
+	color: white;
+}
+
+#youtube a {
+	text-decoration: none;
+}
+
+#youtube .wrapper .video-cont .play-area .play-button {
+	width: 65px;
+	height: 65px;
+	font-size: 27px;
+	color: #c4302b;
+	border-radius: 50%;
+	background-color: #ffffff;
+	margin: 120px auto 110px auto;
+	overflow: hidden;
+	z-index: 9999999;
+	vertical-align: middle;
+	transition: 0.4s ease;
+}
+
+#youtube .wrapper .video-cont .play-area .play-button span {
+	position: relative;
+	vertical-align: middle;
+	padding-top: 18px;
+	padding-left: 5px;
+	transition: 0.4s ease;
+}
+
+#youtube .wrapper .video-cont .details-cont {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#youtube .wrapper .video-cont h3 {
+	color: rgb(221, 221, 221);
+	font-size: 30px;
+}
+
+#youtube .wrapper .video-cont p {
+	font-size: 15px;
+	color: rgb(170, 170, 170);
+}
+
+#steam {
+	background-image: url(../img/rg/img2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+
+#steam .main-cont {
+	position: relative;
+	background-color: rgba(0, 0, 0, 0.8);
+	padding-left: 30px;
+	padding-right: 30px;
+	overflow: hidden;
+}
+
+#steam .game-des {
+	width: 50%;
+	float: left;
+	vertical-align: center;
+	padding-top: 130px;
+	padding-bottom: 110px;
+	text-align: center;
+}
+
+#steam .steam-link {
+	position: relative;
+	width: 50%;
+	float: left;
+	padding-top: 120px;
+	padding-bottom: 110px;
+	padding-left: 6%;
+}
+
+#steam .steam-link iframe {
+	vertical-align: center;
+}
+
+#steam h2 {
+	color: rgb(221, 221, 221);
+	font-size: 36px;
+}
+
+#steam h4 {
+	font-size: 17px;
+	color: rgb(170, 170, 170);
+}
+
+#team {
+	background-image: url(../img/rg/4.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+
+#team .main-cont {
+	background-color: rgba(0, 0, 0, 0.8);
+	padding-top: 120px;
+	padding-bottom: 140px;
+}
+
+#team .main-cont h2 {
+	text-align: center;
+	color: rgb(218, 218, 218);
+	text-transform: uppercase;
+	font-size: 50px;
+}
+
+#team .wrapper {
+	text-align: center;
+	padding-top: 80px;
+}
+
+#team .col-md-4 {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#team .member-img {
+	padding-top: 40px;
+	padding-bottom: 20px;
+}
+
+#team .member-img img {
+	width: 170px;
+	height: auto;
+	border-radius: 50%;
+}
+
+#team .member-cont {
+	padding-left: 25px;
+	padding-right: 25px;
+	background-color: rgba(0, 0, 0, 0.4);
+	border: 1px solid rgb(22, 22, 22);
+	border-radius: 6px;
+	transition: 0.4s ease;
+}
+
+#team .member-cont:hover {
+	background-color: rgba(0, 0, 0, 0.65);
+}
+
+#team .member-cont h3 {
+	padding: 0 0 3px 0;
+	margin: 0;
+	font-size: 28px;
+	color: rgb(216, 216, 216);
+}
+
+#team .member-cont p {
+	padding: 0;
+	margin: 0;
+	color: rgb(179, 179, 179);
+	font-size: 19px;
+}
+
+#team .member-cont .divider {
+	margin-top: 15px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid rgb(29, 29, 29);
+	border-top: 1px solid rgb(43, 43, 43);
+}
+
+#team .member-cont .member-des {
+	color: rgb(179, 179, 179);
+	font-size: 15px;
+}
+
+#team .member-social {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: center;
+	overflow: hidden;
+	text-align: center;
+}
+
+#team .member-social ul {
+	display: inline-block;
+	list-style-type: none;
+	padding: 0;
+}
+
+#team .member-social ul li {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+#team .member-social ul li:last-child {
+	margin-right: 0;
+}
+
+#team .member-social ul li a {
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+}
+
+#team .member-social ul li a span {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	vertical-align: middle;
+}
+
+#team .member-social ul li a .fa-facebook {
+	padding-top: 11px;
+	background-color: rgb(59, 89, 152);
+	transition: 0.4s ease;
+}
+
+#team .member-social ul li a .fa-twitter {
+	padding-top: 11px;
+	padding-left: 3px;
+	background-color: rgb(0, 172, 238);
+	transition: 0.4s ease;
+}
+
+#team .member-social ul li a .fa-play {
+	padding-top: 10px;
+	padding-left: 4px;
+	background-color: rgb(196, 48, 43);
+	transition: 0.4s ease;
+}
+
+#team .member-social ul li a .fa-facebook:hover {
+	background-color: rgba(59, 88, 152, 0.6);
+}
+
+#team .member-social ul li a .fa-twitter:hover {
+	background-color: rgba(0, 171, 238, 0.6);
+}
+
+#team .member-social ul li a .fa-play:hover {
+	background-color: rgba(196, 48, 43, 0.6);
+}
+
+#about-us {
+	background-image: url(../img/rg/photo-1480714378408-67cf0d13bc1b.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#about-us .main-cont {
+	background-color: rgba(0, 0, 0, 0.80);
+	padding-top: 120px;
+	padding-bottom: 120px;
+	text-align: center;
+}
+
+#about-us .main-cont h1 {
+	font-size: 50px;
+	text-transform: uppercase;
+	color: rgb(206, 206, 206);
+}
+
+@media (max-width: 992px) {
+	#home #home-background {
+		width: auto;
+		height: 100%;
+	}
+	#youtube .row .col-md-4 {
+		padding-bottom: 55px;
+	}
+	#steam .game-des {
+		width: 100%;
+		padding-top: 80px;
+		padding-bottom: 40px;
+	}
+	#steam .steam-link {
+		width: 100%;
+		padding-top: 0;
+		padding-bottom: 100px;
+		padding-left: 0;
+	}
+	#steam .steam-link iframe {
+		width: 100% !important;
+		position: relative;
+		padding: auto !important;
+		margin: auto !important;
+	}
+	#team .col-md-4 {
+		padding-bottom: 60px;
+	}
+}
+
+@media (max-width: 767px) {
+	#youtube .row .col-md-4 {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	#home h2 {
+		font-size: 40px;
+	}
+	#youtube .main-cont {
+		padding-top: 100px;
+		padding-bottom: 140px;
+	}
+	#youtube .main-cont h2 {
+		font-size: 40px;
+	}
+	#team .col-md-4 {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	#team .main-cont {
+		padding-top: 100px;
+		padding-bottom: 140px;
+	}
+	#team .main-cont h2 {
+		font-size: 40px;
+	}
+	#about-us .main-cont h1 {
+		font-size: 40px;
+	}
+}
+
+@media (max-width:480px) {
+	#youtube .main-cont {
+		padding-top: 85px !important;
+		padding-bottom: 85px !important;
+	}
+	#steam .main-cont {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	#team .col-md-4 {
+		padding-bottom: 50px;
+	}
+	#team .main-cont {
+		padding-top: 85px;
+		padding-bottom: 85px;
+	}
+}
+
+/* ==== Global styles ==== */
+
+.pos-relative {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+.full-sized-box {
+	background-color: rgba(0, 0, 0, 0.7);
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	display: table;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+.full-sized-box .container {
+	position: relative;
+	vertical-align: middle;
+	display: table-cell;
+}
+
+.overlay {
+	z-index: 1;
+	background-color: rgba(0, 0, 0, 0.8);
+	position: fixed;
+}
+
+.img-center {
+	margin: 0 auto;
+}
+
+.white_font {
+	color: rgb(179, 179, 179);
+}
+
+.black_font {
+	color: black;
+}
+
+.dark_overlay {
+	z-index: 1;
+	background-color: rgba(0, 0, 0, 0.7);
+	position: fixed;
+}
+
+.text_center {
+	text-align: center;
+}
+
+.text_left {
+	text-align: left;
+}
+
+.section-top-border {
+	border-top: 3px solid rgb(27, 21, 13);
+}
+
+.section-des {
+	padding-left: 60px;
+	padding-right: 60px;
+	line-height: 25px;
+	padding-top: 15px;
+}
+
+.padding-top-60 {
+	padding-top: 60px;
+}
+
+.padding-bottom-20 {
+	padding-bottom: 20px;
+}
+
+.padding-bottom-50 {
+	padding-bottom: 50px;
+}
+
+.padding-bottom-80 {
+	padding-bottom: 80px;
+}
+
+/* ==== Embedded youtube video section ==== */
+
+.modal-dialog {
+	width: 80%;
+	height: 80%;
+}
+
+.modal-content {
+	height: 112%;
+	background-color: transparent;
+}
+
+.modal-body {
+	width: 100%;
+	height: 100%;
+}
+
+.modal-body iframe {
+	width: 100%;
+	height: 100%;
+}
+
+/* ==== End Embedded youtube video section ==== */
